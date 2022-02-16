@@ -24,4 +24,4 @@
 #### 参考资源
 
 - [方志朋SpringCloud教程](https://blog.csdn.net/forezp/category_6830968.html?spm=1001.2014.3001.5482)
-- [阿里云maven仓搜素](
+- [阿里云maven仓搜素](https://developer.aliyun.com/mvn/search)
