@@ -21,6 +21,8 @@
     <modules>
         <module>nacos-discovery-client-order</module>
         <module>nacos-discovery-client-inventory</module>
+        <module>nacos-discovery-client-stock</module>
+        <module>nacos-discovery-client-member</module>
     </modules>
 
     <dependencies>

@@ -4,7 +4,7 @@
 
 #### 组件拓扑
 
-![SpringCloudTopology](docs/md/imgs/image-20220211235646978.png)
+![SpringCloudTopology](docs/md/docs_imgs/image-20220211235646978.png)
 
 #### roadmap
 
