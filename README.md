@@ -12,7 +12,7 @@
 
 #### 组件选型
 
-- 注册中心 **nacos**
+- 注册中心 **[nacos](https://nacos.io/zh-cn/docs/architecture.html)**
 - 客户端负载均衡 **ribbon**(**feign**)
 - 服务流量控制 **sentinel**
 - 微服务网关 **gateway**
