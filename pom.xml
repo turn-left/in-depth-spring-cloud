@@ -26,7 +26,6 @@
     <modules>
         <module>nacos-discovery-client-order</module>
         <module>nacos-discovery-client-inventory</module>
-        <module>nacos-discovery-client-stock</module>
         <module>nacos-discovery-client-member</module>
         <module>eureka-discovery-server</module>
         <module>eureka-discovery-client-provider</module>
