@@ -8,7 +8,7 @@
     </parent>
     <modelVersion>4.0.0</modelVersion>
     <groupId>com.ethen</groupId>
-    <artifactId>in-depth-springcloud</artifactId>
+    <artifactId>in-depth-spring-cloud</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <name>in-depth-spring-cloud</name>
     <description>SpringCloud源码实战分析</description>
@@ -29,6 +29,8 @@
         <module>nacos-discovery-client-stock</module>
         <module>nacos-discovery-client-member</module>
         <module>eureka-discovery-server</module>
+        <module>eureka-discovery-client-provider</module>
+        <module>eureka-discovery-client-consumer</module>
     </modules>
 
     <dependencies>

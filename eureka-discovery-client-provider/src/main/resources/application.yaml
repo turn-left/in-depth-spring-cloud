@@ -1,0 +1,17 @@
+server:
+  port: 8081
+  servlet:
+    context-path: /provider
+spring:
+  application:
+    name: eureka-discovery-client-provider
+eureka:
+  instance:
+    # 采用IP注册
+    prefer-ip-address: true
+    # 定义实例ID的格式 -> 应用名:IP:端口号
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+  client:
+    service-url:
+      # fixme 这个属性的含义？？
+      defaultZone: http://localhost:8761/eureka
