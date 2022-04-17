@@ -15,9 +15,10 @@ public class ConsumerController {
 
     @RequestMapping("/remote/hello")
     public Object helloRemote(String name, String greetings) {
-        String result = restTemplate.getForObject("http://eureka-discovery-client-provider/provider/v1/hello", String.class);
+        String urlTemplate = "http://eureka-discovery-client-provider/provider/v1/hello?name=%s&greetings=%s";
+        String result = restTemplate.getForObject(String.format(urlTemplate, name, greetings), String.class);
         if (log.isInfoEnabled()) {
-            log.debug("helloRemote result {}", result);
+            log.info("helloRemote result {}", result);
         }
         return result;
     }
