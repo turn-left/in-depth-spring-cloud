@@ -18,3 +18,15 @@ eureka:
     healthcheck:
       # 开启客户端健康检查，将健康信息传递给eureka服务端
       enabled: true
+# actuator 应用监控端点配置
+#management:
+#  endpoints:
+#    enabled-by-default: true
+#  endpoint:
+#    beans:
+#      enabled: true
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
