@@ -1,10 +1,6 @@
 server:
-  port: 8091
   servlet:
     context-path: /consumer
-spring:
-  application:
-    name: eureka-discovery-client-consumer
 eureka:
   instance:
     # 采用IP注册

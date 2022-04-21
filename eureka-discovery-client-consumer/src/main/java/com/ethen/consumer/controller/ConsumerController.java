@@ -16,8 +16,8 @@ public class ConsumerController {
     @Autowired
     private RestTemplate restTemplate;
 
-    @Value("${from}")
-    private String from;
+    @Value("${mail.enabled}")
+    private Boolean enableMail;
 
     @RequestMapping("/remote/hello")
     public Object helloRemote(String name, String greetings) {
@@ -31,6 +31,6 @@ public class ConsumerController {
 
     @GetMapping("/config")
     public Object getConfig() {
-        return from;
+        return enableMail;
     }
 }
