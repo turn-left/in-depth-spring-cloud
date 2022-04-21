@@ -1,5 +1,5 @@
 server:
-  port: 7001
+  port: 8888
 
 spring:
   application:
@@ -10,4 +10,15 @@ spring:
         git:
          uri: https://gitee.com/hiyoyo/config-repository
          username: hiyoyo
-         password: ak47#*#*
+         password: qaz123..
+
+eureka:
+  instance:
+    # 采用IP注册
+    prefer-ip-address: true
+    # 定义实例ID的格式 -> 应用名:IP:端口号
+    instance-id: ${spring.application.name}:${spring.cloud.client.ip-address}:${server.port}
+  client:
+    service-url:
+      # fixme 这个属性的含义？？
+      defaultZone: http://localhost:8761/eureka
