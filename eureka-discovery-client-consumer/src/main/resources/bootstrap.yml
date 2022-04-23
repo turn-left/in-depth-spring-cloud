@@ -1,3 +1,7 @@
+# 服务基础配置
+server:
+  port: 8091
+
 # 配置中心相关
 spring:
   application:
@@ -9,17 +13,14 @@ spring:
       label: master
       # 对于配置文件的{profile}
       profile: dev
-#      # 配置服务地址
-#      uri: http://127.0.0.1:8888/
+      #      # 配置服务地址
+      #      uri: http://127.0.0.1:8888/
       discovery:
         # 开启通过服务来访问config的功能
         enabled: true
         service-id: config-server
 
-
-server:
-  port: 8091
-
+# 服务注册
 eureka:
   instance:
     # 采用IP注册
