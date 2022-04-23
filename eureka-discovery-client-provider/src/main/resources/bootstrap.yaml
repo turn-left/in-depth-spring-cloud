@@ -17,6 +17,8 @@ spring:
         service-id: config-server
       label: master
       profile: default
+      # 获取不到配置则快速失败
+      fail-fast: true
 
 # 服务注册配置
 eureka:
