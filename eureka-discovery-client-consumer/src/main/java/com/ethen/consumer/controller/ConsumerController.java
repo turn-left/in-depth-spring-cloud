@@ -1,6 +1,5 @@
 package com.ethen.consumer.controller;
 
-import com.ethen.common.ResponseHelper;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.beans.factory.annotation.Value;
