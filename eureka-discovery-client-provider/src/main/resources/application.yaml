@@ -9,4 +9,6 @@ management:
   endpoints:
     web:
       exposure:
-        include: "*"
+        # 开启refresh端点(刷新配置项)
+        include: refresh
+#        include: "*"

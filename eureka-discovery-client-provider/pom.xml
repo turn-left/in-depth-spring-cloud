@@ -33,7 +33,7 @@
             <version>1.0-SNAPSHOT</version>
         </dependency>
 
-        <!--    客户端健康检查    -->
+        <!--    客户端健康检查  refresh配置项  -->
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-actuator</artifactId>
