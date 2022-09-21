@@ -24,3 +24,4 @@
 - [SpringCloud系列教程](https://blog.csdn.net/forezp/category_6830968.html?spm=1001.2014.3001.5482)
 - [方志朋SpringCloud教程](https://www.fangzhipeng.com/spring-cloud.html)
 - [阿里云maven仓搜素](https://developer.aliyun.com/mvn/search)
+- [SpringCloud Alibaba](https://github.com/alibaba/spring-cloud-alibaba/blob/2021.x/README-zh.md)
