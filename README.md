@@ -29,3 +29,4 @@
 - [方志朋SpringCloud教程](https://www.fangzhipeng.com/spring-cloud.html)
 - [阿里云maven仓搜素](https://developer.aliyun.com/mvn/search)
 - [SpringCloud Alibaba](https://github.com/alibaba/spring-cloud-alibaba/blob/2021.x/README-zh.md)
+- [SpringCloud版本说明](https://github.com/alibaba/spring-cloud-alibaba/wiki/%E7%89%88%E6%9C%AC%E8%AF%B4%E6%98%8E)
