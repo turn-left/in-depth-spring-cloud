@@ -27,6 +27,7 @@
         <module>eureka-discovery-server</module>
         <module>config-server</module>
         <module>zuul-server</module>
+        <module>nacos-config-client-app</module>
     </modules>
 
     <dependencies>
