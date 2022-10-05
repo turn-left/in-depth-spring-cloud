@@ -20,11 +20,13 @@ import java.util.concurrent.TimeUnit;
 public class ConfigDemo {
     public static void main(String[] args) throws NacosException, InterruptedException {
         String host = "192.168.56.20";
-        String dataId = "nacos-config-demo.yml";
+        String namespace = "e864b67e-b7db-4c58-802c-66fb77ec83fe";  // 命名空间
+        String dataId = "nacos-config-demo";
         String group = "DEFAULT_GROUP";
         long timeout = 5000L;
         Properties properties = new Properties();
         properties.put(PropertyKeyConst.SERVER_ADDR, host);
+        properties.put(PropertyKeyConst.NAMESPACE, namespace);
 
         ConfigService configService = NacosFactory.createConfigService(properties);
 

@@ -1,0 +1,10 @@
+spring:
+  application:
+    name: nacos-config-client-app
+
+  cloud:
+    nacos:
+      config:
+        server-addr: 192.168.56.20:8848
+        namespace: e864b67e-b7db-4c58-802c-66fb77ec83fe
+        file-extension: yml
