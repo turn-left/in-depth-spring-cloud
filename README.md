@@ -16,7 +16,7 @@
 - 客户端负载均衡 **ribbon**(**feign**)
 - 服务流量控制 **sentinel**
 - 微服务网关 **gateway**
-- [配置中心 **nacos**](https://www.cnblogs.com/xing1/articles/15757323.html)
+- [配置中心 **nacos**](/docs/md/articles/微服务源码：nacos配置加载.md)
 - 分布式事务 **seata**
 
 #### Domain-Driven-Design 系列
