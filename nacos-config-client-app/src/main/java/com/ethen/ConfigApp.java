@@ -4,6 +4,7 @@ import com.ethen.config.RedisConfigProperties;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.context.ConfigurableApplicationContext;
+import org.springframework.scheduling.annotation.EnableScheduling;
 
 import java.util.Map;
 import java.util.concurrent.TimeUnit;
@@ -14,6 +15,7 @@ import java.util.concurrent.TimeUnit;
  * @author ethenyang@126.com
  * @since 2022/10/05
  */
+@EnableScheduling
 @SpringBootApplication
 public class ConfigApp {
     public static void main(String[] args) throws InterruptedException {
@@ -24,10 +26,10 @@ public class ConfigApp {
         System.err.println(redisConfigProperties);
 
 
-        while (true) {
-            Map<String, RedisConfigProperties> map = context.getBeansOfType(RedisConfigProperties.class);
-            System.err.println("now:" + map);
-            TimeUnit.SECONDS.sleep(5);
-        }
+//        while (true) {
+//            Map<String, RedisConfigProperties> map = context.getBeansOfType(RedisConfigProperties.class);
+//            System.err.println("now:" + map);
+//            TimeUnit.SECONDS.sleep(5);
+//        }
     }
 }
