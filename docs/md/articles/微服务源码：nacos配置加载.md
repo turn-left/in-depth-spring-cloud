@@ -2,7 +2,7 @@
 
 ## 问题清单
 
-- Environment类分析
+- [Environment类分析](https://www.cnblogs.com/xing1/p/14221358.html)
 - PropertySource类
 - bootstrap.yml分析
 - prepareContext方法分析
@@ -10,9 +10,7 @@
 - PropertySourceLoader.locateCollection方法
 - 配置优先级or覆盖？
 
-
-
-
 ## 参考资源
 
 - [Spring Cloud Nacos配置中心源码分析（十七）](https://www.cnblogs.com/xing1/articles/15757323.html)
+- [Spring Cloud Config源码篇](https://www.cnblogs.com/xing1/p/14221358.html)
